@@ -1,0 +1,23 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.42;
+    color: $text-color;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper {
+    overflow: hidden;
+    min-height: 100%;
+    position: relative;
+}
+
+.container {
+    margin: 0 auto;
+    width: 95%;
+}

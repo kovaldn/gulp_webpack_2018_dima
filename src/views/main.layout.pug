@@ -1,0 +1,17 @@
+block variables
+
+doctype html
+html(lang="ru")
+    head
+        meta(charset="utf-8")
+        meta(content="ie=edge" http-equiv="x-ua-compatible")
+        meta(content="width=device-width, initial-scale=1" name="viewport")
+        title Portfolio | #{title}
+        link(rel='stylesheet' href='assets/styles/main.min.css')
+    body
+        .wrapper
+            .maincontent
+                block content
+            include ./common/menu.pug
+            include ./common/footer.pug
+        block scripts
