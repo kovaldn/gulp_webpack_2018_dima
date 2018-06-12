@@ -11,6 +11,17 @@ const config = {
     output: {
         filename: "[name].bundle.js"
     },
+    optimization: {
+        splitChunks: {
+            cacheGroups: {
+                commons: {
+                    test: /[\\/]node_modules[\\/]/,
+                    name: 'vendors',
+                    chunks: 'all'
+                }
+            }
+        }
+    },
     plugins: [
         new UglifyJSPlugin({
             sourceMap: true

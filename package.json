@@ -29,6 +29,7 @@
     "webpack-cli": "^3.0.2"
   },
   "dependencies": {
-    "normalize.css": "^8.0.0"
+    "normalize.css": "^8.0.0",
+    "vue": "^2.5.16"
   }
 }
